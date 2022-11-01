@@ -585,25 +585,25 @@ table {
     border-collapse: collapse;
     margin-top: 60px;
     margin-left: 330px;
-    width: 100%;
+    width: 65%;
     border-radius: 12px;
 }
 
 table tr {
     background: #F5F5F5;
     border: 1px solid #F5F5F5;
-    padding: .35em;
+    padding: 2px;
 }
 
 table th,
 table td {
-    padding: .625em;
+    padding: 2px;
     text-align: center;
     margin-right: 1000px;
 }
 
 table th {
-    font-size: 15px;
-    letter-spacing: .1em;
+    font-size: 14px;
+    letter-spacing: 1px;
     color: #4490FF;
 }
