@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="kelola-keuangan.html">
+                    <a href="#">
                         <span class="item">Kelola Keuangan</span>
                     </a>
                 <li>
@@ -80,25 +80,66 @@
             </ul>
         </div>
 
-        <div class="data">
-            <div class="gambar">
-                <input type="gambar" placeholder="Add a new photo">
-            </div>
-            <div class="deskripsi">
-                <input type="deskripsi" placeholder="Add Description">
-            </div>
-            <div class="">
-                <input class="post" type="button" value="Post">
+        <div class="pembayaran">
+            <p>Kelola Keuangan Penduduk</p>
+
+            <table class="col md-1">
+                <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Tanggal</th>
+                        <th scope="col">No Rumah</th>
+                        <th scope="col">Air</th>
+                        <th scope="col">Kebersihan</th>
+                        <th scope="col">Keamanan</th>
+                        <th scope="col">Total Bayar</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Keterangan</th>
+                    </tr>
+                    <tr>
+                        <td data-label="No"></td>
+                        <td data-label="Tanggal"></td>
+                        <td data-label="No Rumah"></td>
+                        <td data-label="Air"></td>
+                        <td data-label="Kebersihan"></td>
+                        <td data-label="Keamanan"></td>
+                        <td data-label="Total Bayar"></td>
+                        <td data-label="Status"></td>
+                        <td data-label="Keterangan"></td>
+                    </tr>
+                </thead>
+            </table>
+
+            <div class="up-date">
+                <a href="update-status.html"><input class="baru" type="button" value="Update Status"></a>
+                <a href="konf-bayar.html"><input class="konf" type="button" value="Konfirmasi Pembayaran"></a>
             </div>
         </div>
 
-    </div>
-    <script>
+        <div class="form">
+            <form action="" method="post">
+                <p>Konfirmasi Pembayaran</p>
+                <div class="form-group">
+                    <label>Status Pembayaran:</label>
+                    <select class="form-control" name="status" id="status">
+                        <option value="1">Belum Bayar</option>
+                        <option value="2">Telah Bayar</option>
+                        </option>
+                    </select>
+                </div>
+                <div class="form-action">
+                    <a href="kelola-keuangan.html"><input class="btn-update" type="button" value="Update"></a>
+                    <a href="kelola-keuangan.html"><input class="btn-kembali" type="button" value="Kembali"></a>
+                </div>
+            </form>
+
+        </div>
+        <script>
         var hamburger = document.querySelector(".hamburger");
         hamburger.addEventListener("click", function() {
             document.querySelector("body").classList.toggle("active");
         })
-    </script>
+        </script>
 </body>
 
 </html>

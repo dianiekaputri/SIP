@@ -523,14 +523,14 @@ body.active .wrapper .section {
     margin-left: 110px;
 }
 
-.search {
+.search, .pembayaran {
     margin: auto;
     margin-top: 75px;
     width: 700px;
     height: 50px;
 }
 
-.search h3 {
+.search h3, .air p, .pembayaran p  {
     font-family: 'Lao Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -695,4 +695,290 @@ table th {
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.air {
+    margin: auto;
+    margin-top: 75px;
+    width: 700px;
+    height: 50px;
+}
+
+.air table {
+    margin: auto;
+    width: 800px;
+    height: 60px;
+    border: 1px solid #F5F5F5;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.air table tr {
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    padding: 2px;
+}
+
+.air table th,
+.air table td {
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+}
+
+.air table th {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #4490FF;
+}
+
+.air .on .masuk, .pembayaran .up-date .baru {
+    width: 100px;
+    height: 38px;
+    margin-top: 320px;
+    float: left;
+    border: none;
+    background: #4490FF;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.air .close .keluar {
+    width: 100px;
+    height: 38px;
+    margin-top: 320px;
+    float: right;
+    border: none;
+    background: #04AB33;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.pembayaran table {
+    margin: auto;
+    height: 60px;
+    border: 1px solid #F5F5F5;
+    margin-top: 10px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.pembayaran table tr {
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    padding: 2px;
+}
+
+.pembayaran table th,
+.pembayaran table td {
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+}
+
+.pembayaran table th {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #4490FF;
+}
+
+.pembayaran .up-date .konf {
+    width: 180px;
+    height: 38px;
+    margin: 5px;
+    margin-top: 320px;
+    float: left;
+    border: none;
+    background: #04AB33;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 370px;
+    left: 356px;
+    top: 150px;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+}
+
+.form p, .form .form-group, .table-responsive p {
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 10px;
+    color: #000000;
+}
+
+.form .form-group .form-control  {
+    box-sizing: border-box;
+    width: 480px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.form .form-group .form-controll {
+    box-sizing: border-box;
+    width: 480px;
+    height: 70px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.form .form-group .btn-primary, .table-responsive .form-group .btn-primary  {
+    width: 90px;
+    height: 35px;
+    float: left;
+    border: none;
+    background: #4490FF;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form .form-group .btn-close, .table-responsive .form-group .btn-close {
+    width: 90px;
+    height: 35px;
+    float: right;
+    border: none;
+    background: #F5532F;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.table-responsive {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 356px;
+    top: 100px;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+}
+
+.table-responsive table {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    border: 1px solid #F5F5F5;
+    margin-top: 10px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.table-responsive table tr {
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    padding: 2px;
+}
+
+.table-responsive table th {
+    box-sizing: border-box;
+    width: 480px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 29px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.table-responsive table th .text {
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+.table-responsive .form-group .btn-primary {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.table-responsive .form-group .btn-close {
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.form .form-action .btn-update {
+    width: 80px;
+    height: 30px;
+    float: left;
+    border: none;
+    background: #04AB33;
+    border-radius: 12px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.form .form-action .btn-kembali {
+    width: 80px;
+    height: 30px;
+    float: left;
+    border: none;
+    background: #999999;
+    border-radius: 12px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
 }
