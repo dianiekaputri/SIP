@@ -607,3 +607,92 @@ table th {
     letter-spacing: 1px;
     color: #4490FF;
 }
+
+.update {
+    width: fit-content;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.update .left {
+    float: left;
+}
+
+.update .right {
+    float: right;
+}
+
+.update .kk,
+.update .nik,
+.update .nl,
+.update .nr
+{
+    box-sizing: border-box;
+    background: #F5F5F5;
+    border-radius: 60px;
+    width: 350px;
+    height: 38px;
+    border: none;
+}
+
+.update .email,
+.update .no,
+.update .user,
+.update .pw {
+    box-sizing: border-box;
+    background: #F5F5F5;
+    border-radius: 60px;
+    width: 350px;
+    height: 38px;
+    border: none;
+}
+
+.left p,
+.right p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #4490FF
+}
+
+.update .left .enter .up {
+    width: 100px;
+    height: 38px;
+    margin-top: 15px;
+    float: left;
+    border: none;
+    background: #4490FF;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.update .right .close .keluar {
+    width: 100px;
+    height: 38px;
+    margin-top: 15px;
+    float: right;
+    border: none;
+    background: #F5532F;
+    border-radius: 60px;
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
